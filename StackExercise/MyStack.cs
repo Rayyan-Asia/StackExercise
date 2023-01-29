@@ -8,8 +8,8 @@ namespace StackExercise
 {
     public class MyStack<T>
     {
-        public List<T> Data;
-        public int Counter { get; set; }
+        private List<T> Data;
+        private int Counter;
         public MyStack()
         {
             Data = new List<T>();
@@ -65,8 +65,5 @@ namespace StackExercise
                 Console.WriteLine(item);
             }
         }
-        
-
-
     }
 }
