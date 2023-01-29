@@ -10,11 +10,10 @@
             stack.Push("The");
             stack.Push("Goat");
             Console.WriteLine(stack.Peak());
-            stack.Print();
             Console.WriteLine(stack.Pop());
-            stack.Clear();
+            stack.Push("Fluent in Yoda, I am");
             stack.Print();
-
+            stack.Clear();
             Console.ReadLine();
 
         }

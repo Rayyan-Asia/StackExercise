@@ -1,68 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StackExercise
+﻿namespace StackExercise
 {
     public class MyStack<T>
     {
-        private List<T> Data;
-        private int Counter;
-        public MyStack()
-        {
-            Data = new List<T>();
-            Counter = 0;
-        }
+        private Node? head;
         public void Push(T item)
         {
-            Data.Add(item);
-            Counter++;
+            var node = new Node(item);
+            if (head != null)
+                node.previous = head;
+            head = node;
         }
         public T Pop()
         {
-            if (Counter != 0)
-            {
-                T item = Data[Counter - 1];
-                Data.RemoveAt(Counter - 1);
-                Counter--;
-                return item;
-            }
-            else
+            if (head != null)
+            { 
+                T node= head.data;
+                head = head.previous;
+                return node;
+            }else
             {
                 throw new Exception("No Objects left in the stack");
             }
         }
         public void Clear()
         {
-            Counter = 0;
-            Data.Clear();
+            head = null;
         }
 
         public T Peak()
         {
-            if (Counter != 0)
-            {
-                T item = Data[Counter - 1];
-                return item;
-            }
-            else
-            {
-                throw new Exception("No Objects in the Stack");
-            }
+            if (head == null)
+                throw new Exception("No Objects in Stack");
+            return head.data;
         }
 
         public void Print()
         {
-            if (Data.Count == 0) 
+            if(head == null)
             {
-                Console.WriteLine("No Objects in the Stack!");
-                return;
+                throw new Exception("No Objects in Stack");
             }
-            foreach (T item in Data)
+            else
             {
-                Console.WriteLine(item);
+                PrintRecursive(head);
+            }
+            
+        }
+
+        public void PrintRecursive(Node node)
+        {
+            if(node.previous != null)
+            {
+                PrintRecursive(node.previous);  
+            }
+            Console.WriteLine(node.data);
+        }
+        public class Node
+        {
+            public T data { get; set; }
+            public Node? previous { get; set;}
+            public Node(T data)
+            {
+                this.data = data;
             }
         }
     }
