@@ -1,0 +1,15 @@
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\bin\Debug\net6.0\StackExercise.exe
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\bin\Debug\net6.0\StackExercise.deps.json
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\bin\Debug\net6.0\StackExercise.runtimeconfig.json
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\bin\Debug\net6.0\StackExercise.dll
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\bin\Debug\net6.0\StackExercise.pdb
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.csproj.AssemblyReference.cache
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.AssemblyInfoInputs.cache
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.AssemblyInfo.cs
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.csproj.CoreCompileInputs.cache
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.dll
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\refint\StackExercise.dll
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.pdb
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\StackExercise.genruntimeconfig.cache
+C:\Users\rayya\Documents\Programming\Training C#\StackExercise\StackExercise\obj\Debug\net6.0\ref\StackExercise.dll
